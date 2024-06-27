@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="white">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="shortcut icon" href="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61c01137ce98a30a305516a8_interno-favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
     <title>Interno Design</title>
 </head>
 <body>
     <article class="page">
-        <nav>
-            <a href="#reset">
-                <img src="logo/Logo.svg" alt="logo-interno">
-            </a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div class="conteinerNav">
+            <nav class="nav">
+                <a href="#">
+                    <img src="logo/Logo.svg" alt="logo-interno">
+                </a>
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <button class="hamburger"></button>
+            </nav>
+        </div>
     </article>
     
     <main>
@@ -33,7 +38,7 @@
                 <h2>
                     The world needs innovators and problem solvers who turn challenges into greater opportunities.
                 </h2>
-                <a class="conteiner-botao" href="#">
+                <a class="conteiner-button" href="#">
                     Get Started
                     <img src="icons/Vector (3).svg" alt="seta">
                 </a>       
@@ -45,7 +50,7 @@
         <section class="conteiner-02">
             <article class="page">
                 <div class="servicos">
-                    <div class="servicos-01-03">
+                    <div class="servicos-01-03 scroll-top">
                         <h2>
                             Interior Design
                         </h2>
@@ -58,7 +63,7 @@
                         </a>                
                     </div>
 
-                    <div class="servicos-01-03">
+                    <div class="servicos-01-03 scroll-top">
                         <h2>
                             Furniture
                         </h2>
@@ -71,7 +76,7 @@
                         </a>                
                     </div>
 
-                    <div class="servicos-01-03">
+                    <div class="servicos-01-03 scroll-top">
                         <h2>
                             Flooring
                         </h2>
@@ -90,16 +95,17 @@
         <section class="conteiner-03">
             <article class="page">
                 <div class="box-call">
-                    <h2>
-                        We Tackle The Most Challenging Designs
-                    </h2>
+                    <div class=" scroll-top">
+                        <h2>
+                            We Tackle The Most Challenging Designs
+                        </h2>
+                        <p class="text">
+                            The world needs innovators and problem solvers who turn challenges into greater opportunities. We have
+                            an insatiable curiosity about transformative trends challenging the status.
+                        </p>
+                    </div>
 
-                    <p class="text">
-                        The world needs innovators and problem solvers who turn challenges into greater opportunities. We have
-                        an insatiable curiosity about transformative trends challenging the status.
-                    </p>
-
-                    <div class="call-number">
+                    <div class="call-number  scroll-top">
                         <div class="call">
                             <img  src="icons/Call.svg" alt="call">
                         </div>
@@ -115,13 +121,13 @@
                         </div>  
                     </div>
 
-                    <a href="#">
+                    <a class="scroll-top" href="#">
                         Get Free Estimate
                         <img src="icons/Vector (3).svg" alt="seta">
                     </a>
                 </div>
 
-                <div class="image-moveis">
+                <div class="image-moveis scroll-top">
                     <img src="pictures/Photo.jpg" alt="image-moveis">
                 </div>
             </article>
@@ -130,11 +136,11 @@
         <section class="conteiner-04">
             <article class="page">
                 <div class="box-people">
-                    <h2>
+                    <h2 class="scroll-top">
                         What People Think About Interno
                     </h2>
                     <div class="service-people">
-                        <div class="people-01-03">
+                        <div class="people-01-03 scroll-top">
                             <div class="people-img01-03">
                                 <img src="pictures/Image (1).png" alt="people-01">
                                 <div class="name-country">
@@ -150,7 +156,7 @@
                                 We selected Interno interior because of rigorous design background & education.
                             </p>
                         </div>
-                        <div class="people-01-03">
+                        <div class="people-01-03 scroll-top">
                             <div class="people-img01-03">
                                 <img src="pictures/Image (4).png" alt="people-01">
                                 <div class="name-country">
@@ -166,7 +172,7 @@
                                 The team exceeded our expectation and emerged as leaders of our project's.
                             </p>
                         </div>
-                        <div class="people-01-03">
+                        <div class="people-01-03 scroll-top">
                             <div class="people-img01-03">
                                 <img src="pictures/Image (3).png" alt="people-01">
                                 <div class="name-country">
@@ -190,28 +196,28 @@
         <section class="conteiner-05">
             <article class="page">
                 <div class="logos">
-                    <img src="logo/01.svg" alt="">
-                    <img src="logo/02.svg" alt="">
-                    <img src="logo/03.svg" alt="">
-                    <img src="logo/04.svg" alt="">
-                    <img src="logo/05.svg" alt="">                  
+                    <img class="scroll-top" src="logo/01.svg" alt="">
+                    <img class="scroll-top" src="logo/02.svg" alt="">
+                    <img class="scroll-top" src="logo/03.svg" alt="">
+                    <img class="scroll-top" src="logo/04.svg" alt="">
+                    <img class="scroll-top" src="logo/05.svg" alt="">                  
                 </div>
             </article>
         </section>
 
         <section class="conteiner-06">            
             <article class="page">
-                <h2>
+                <h2 class=" scroll-top">
                     Recent Projects
                 </h2>
 
-                <p>
+                <p class=" scroll-top">
                     With tools to make every part of your process more human and a support team excited to help you, getting started with us never been easier.
                 </p>
 
                 <div class="box-projects">
                     <div class="conteiner-project-01-02">
-                        <div class="project-01-04">
+                        <div class="project-01-04 scroll-top">
                             <a href="">
                                 <img class="picture" src="pictures/Image (5).png" alt="">
                             </a>
@@ -234,7 +240,7 @@
                             </div>
                         </div>
 
-                        <div class="project-01-04">
+                        <div class="project-01-04 scroll-top">
                             <a href="#">
                                 <img class="picture"  src="pictures/Image (6).png" alt="">
                             </a>
@@ -260,7 +266,7 @@
                     
 
                     <div class="conteiner-project-01-02">
-                        <div class="project-01-04">
+                        <div class="project-01-04 scroll-top">
                             <a href="#">
                                 <img class="picture"  src="pictures/Image (7).png" alt="">
                             </a>
@@ -283,7 +289,7 @@
                             </div>
                         </div>
 
-                        <div class="project-01-04">
+                        <div class="project-01-04 scroll-top">
                             <a href="#">
                                 <img class="picture"  src="pictures/Image (8).png" alt="">
                             </a>
@@ -312,7 +318,7 @@
 
         <section class="conteiner-07">
             <article class="page">
-                <div class="box-01-04">
+                <div class="box-01-04 scroll-top">
                     <h2>
                         12
                     </h2>
@@ -321,7 +327,7 @@
                     </p>
                 </div>
 
-                <div class="box-01-04">
+                <div class="box-01-04 scroll-top">
                     <h2>
                         5K
                     </h2>
@@ -330,7 +336,7 @@
                     </p>
                 </div>
 
-                <div class="box-01-04">
+                <div class="box-01-04 scroll-top">
                     <h2>
                         1K
                     </h2>
@@ -339,7 +345,7 @@
                     </p>
                 </div>
 
-                <div class="box-01-04">
+                <div class="box-01-04 scroll-top">
                     <h2>
                         4K
                     </h2>
@@ -352,20 +358,20 @@
 
         <section class="conteiner-08">
             <article class="page">
-                <h2>
+                <h2 class="scroll-top">
                     Recent Blogs
                 </h2>
-                <p>
+                <p class="scroll-top">
                     Get updates about our latest trends and techniques used in interior design project works.
                 </p>
                 <div class="conteiner-box-01-02">
-                    <div class="box-project-01-03">
+                    <div class="box-project-01-03 scroll-top">
                         <div class="img-item">
                             <img src="pictures/Image (9).png" alt="">
 
-                            <a href="#">
+                            <figcaption href="#">
                                 Kitchen Design
-                            </a>
+                            </figcaption>
                          </div>
 
                         <h3>
@@ -376,7 +382,7 @@
 
                         <div class="data">
                             <p>
-                                25 December, 2023
+                                
                             </p>
 
                             <a class="seta" href="#">
@@ -385,13 +391,13 @@
                         </div>
                     </div>
 
-                    <div class="box-project-01-03">
+                    <div class="box-project-01-03 scroll-top">
                         <div class="img-item">
                             <img src="pictures/Image (10).png" alt="">
 
-                            <a href="#">
+                            <figcaption href="#">
                                 Living Room
-                            </a>
+                            </figcaption>
                          </div>
 
                         <h3>
@@ -402,7 +408,7 @@
 
                         <div class="data">
                             <p>
-                                25 December, 2023
+                                
                             </p>
 
                             <a class="seta" href="#">
@@ -411,13 +417,13 @@
                         </div>
                     </div>
 
-                    <div class="box-project-01-03">
+                    <div class="box-project-01-03 scroll-top">
                         <div class="img-item">
                             <img src="pictures/Image (11).png" alt="">
 
-                            <a href="#">
+                            <figcaption href="#">
                                 Minimalist Interior
-                            </a>
+                            </figcaption>
                          </div>
 
                         <h3>
@@ -428,7 +434,7 @@
 
                         <div class="data">
                             <p>
-                                25 December, 2023
+                                
                             </p>
 
                             <a class="seta" href="#">
@@ -439,13 +445,13 @@
                 </div>
 
                 <div class="conteiner-box-01-02">
-                    <div class="box-project-01-03">
+                    <div class="box-project-01-03 scroll-top">
                         <div class="img-item">
                             <img src="pictures/Image (9).png" alt="">
 
-                            <a href="#">
+                            <figcaption href="#">
                                 Kitchen Design
-                            </a>
+                            </figcaption>
                          </div>
 
                         <h3>
@@ -456,7 +462,7 @@
 
                         <div class="data">
                             <p>
-                                25 December, 2023
+                                
                             </p>
 
                             <a class="seta" href="#">
@@ -465,13 +471,13 @@
                         </div>
                     </div>
 
-                    <div class="box-project-01-03">
+                    <div class="box-project-01-03 scroll-top">
                         <div class="img-item">
                             <img src="pictures/Image (10).png" alt="">
 
-                            <a href="#">
+                            <figcaption href="#">
                                 Living Room
-                            </a>
+                            </figcaption>
                          </div>
 
                         <h3>
@@ -482,7 +488,7 @@
 
                         <div class="data">
                             <p>
-                                25 December, 2023
+                                
                             </p>
 
                             <a class="seta" href="#">
@@ -491,13 +497,13 @@
                         </div>
                     </div>
 
-                    <div class="box-project-01-03">
+                    <div class="box-project-01-03 scroll-top">
                         <div class="img-item">
                             <img src="pictures/Image (11).png" alt="">
 
-                            <a href="#">
+                            <figcaption href="#">
                                 Minimalist Interior
-                            </a>
+                            </figcaption>
                          </div>
 
                         <h3>
@@ -508,7 +514,7 @@
 
                         <div class="data">
                             <p>
-                                25 December, 2023
+                                
                             </p>
 
                             <a class="seta" href="#">
@@ -523,14 +529,14 @@
         <section class="conteiner-09">
             <article class="page">
                 <div class="box-text">
-                    <h2>
+                    <h2 class="scroll-top">
                         Wanna join the interno?
                     </h2>
-                    <p>
+                    <p class="scroll-top">
                         Contact Us & Get a Free Consultation
                     </p>
 
-                    <a class="conteiner-botao" href="#">
+                    <a class="conteiner-button scroll-top" href="#">
                         Connect With Us
                         <img src="icons/Vector (5).svg" alt="seta">
                     </a> 
@@ -542,7 +548,7 @@
             <article class="page">
                 <div class="box-info">
                     <div class="info-01">
-                        <a href="">
+                        <a href="#">
                             <img src="logo/Logo.svg" alt="">
                         </a>
 
@@ -571,16 +577,16 @@
                                 <a href="#">Style Guide</a>
                             </li>
                             <li>
-                                <a href="">Protected</a>
+                                <a href="#">Protected</a>
                             </li>
                             <li>
-                                <a href="">Licenses</a>
+                                <a href="#">Licenses</a>
                             </li>
                             <li>
-                                <a href="">Changelog</a>
+                                <a href="#">Changelog</a>
                             </li>
                             <li>
-                                <a href="">404</a>
+                                <a href="#">404</a>
                             </li>
                         </ul>
                     </div>
@@ -595,16 +601,16 @@
                                 <a href="#">About Us</a>
                             </li>
                             <li>
-                                <a href="">Recent Blog</a>
+                                <a href="#">Recent Blog</a>
                             </li>
                             <li>
-                                <a href="">Pricing Plan</a>
+                                <a href="#">Pricing Plan</a>
                             </li>
                             <li>
-                                <a href="">Our Projects</a>
+                                <a href="#">Our Projects</a>
                             </li>
                             <li>
-                                <a href="">Contact Us</a>
+                                <a href="#">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -620,10 +626,10 @@
                                 Brooklyn, New York 11201, USA.</a>
                             </li>
                             <li>
-                                <a href="">contact@interno.com</a>
+                                <a href="#">contact@interno.com</a>
                             </li>
                             <li>
-                                <a href="">(99) 99999-9999</a>
+                                <a href="#">(99) 99999-9999</a>
                             </li>                
                         </ul>
                     </div>
@@ -631,5 +637,7 @@
             </article>
         </footer>
     </main>
+
+    <script src="script"></script>
 </body>
 </html>
