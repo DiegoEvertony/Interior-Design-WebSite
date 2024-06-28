@@ -11,30 +11,6 @@ ScrollReveal().reveal('.scroll-top', {
     useDelay: 'once'
 });
 
-ScrollReveal().reveal('.scroll-bottom', {
-    origin: "bottom", //Para ele surgir de cima para baixo.
-    distance: "50px", // A distancia do origin para a posição original do elemento.
-    duration: 2000, // A duração da animação em ms
-    delay: 200, // O delay para a animação acontecer
-    // reset: false // Ao sair do campo de tela,
-});
-
-ScrollReveal().reveal('.scroll-left', {
-    origin: "left", //Para ele surgir de cima para baixo.
-    distance: "50px", // A distancia do origin para a posição original do elemento.
-    duration: 2000, // A duração da animação em ms
-    delay: 200, // O delay para a animação acontecer
-    // reset: false // Ao sair do campo de tela,
-});
-
-ScrollReveal().reveal('.scroll-right', {
-    origin: "right", //Para ele surgir de cima para baixo.
-    distance: "50px", // A distancia do origin para a posição original do elemento.
-    duration: 2000, // A duração da animação em ms
-    delay: 200, // O delay para a animação acontecer
-    // reset: false // Ao sair do campo de tela,
-});
-
 // Animação do menu é abertura
 
 const hamburger = document.querySelector(".hamburger");
@@ -101,7 +77,6 @@ let ano = data.getFullYear();
 for(let cont = 0; cont < paragrafoData.length; cont++){
     paragrafoData[cont].innerHTML = `${dia} ${mes}, ${ano}`;
 }
-
 
 let section = document.querySelectorAll("section")[0];
 let navg = document.querySelector("nav");
