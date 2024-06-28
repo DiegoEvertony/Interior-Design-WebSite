@@ -13,7 +13,7 @@
     <img src="pictures/previewInterior.png" width ="1000px" alt="Exemplo imagem">
 </p>
 
-<p align="center"><a href="https://diegoevertony.github.io/WebSite-Interior-Design/" target="_blank">Click to visit the project</a></p>
+<p align="center"><a href="https://diegoevertony.github.io/Interior-Design-WebSite/" target="_blank">Click to visit the project</a></p>
 
 > Development based on third-party ideas, using Figma for UX/UI design.
 
